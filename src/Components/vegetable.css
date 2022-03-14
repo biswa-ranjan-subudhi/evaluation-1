@@ -1,0 +1,13 @@
+.button{
+    margin-left: 20px;
+}
+.button button{
+    outline: none;
+    background-color: azure;
+    padding: 10px;
+    margin-right:5px ;
+
+}
+h1{
+    margin-left: 20px;
+}

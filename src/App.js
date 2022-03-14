@@ -1,8 +1,12 @@
+import React from 'react';
+import Vegetables from './Components/vegetable.js';
+import Wish from './Components/Wishlist.js';
 
-import './App.css';
 
 function App() {
- 
+  return <Vegetables tomatoes={10} carrots={5} onions={7} potatoes={8} />
 }
-
-export default App;
+function wishlist(){
+  return <Wish/>
+}
+export { App ,wishlist};
