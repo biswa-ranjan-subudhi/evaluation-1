@@ -27,7 +27,7 @@ const Wishlist = () => {
                 value = {query}
             />
             <button onClick={addTodo}>ADD</button>
-            {items.map(({todo, status}, idx) => (
+            {items.map(({todo}, idx) => (
                 <div key={idx}>{todo}</div>
             ))}
         </>
