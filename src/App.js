@@ -1,10 +1,13 @@
 import React from 'react';
-import {Vegetable} from './Components/vegetable.js';
-import {Wishlist} from './Components/Wishlist.js'
-
+import {Wishlist} from './Components/Wishlist';
+import {Vegetables} from "./Components/Vegetable"
 function App() {
-  return (<Vegetable tomatoes={10} carrots={5} onions={7} potatoes={8} />,
-  <Wishlist/>
-  )
+  return (
+    <>
+      <Wishlist />
+      <Vegetables tomatoes={10} potatoes={8} carrots={5} onions={7}/>
+    </>
+  );
 }
-export { App };
+
+export default App;
