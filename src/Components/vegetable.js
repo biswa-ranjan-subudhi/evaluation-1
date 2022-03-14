@@ -1,8 +1,7 @@
 import React from 'react';
-
 import './vegetable.css'
 
-function vegetables(props) {
+function vegetable(props) {
     const [count1, setCount1] = React.useState(props.tomatoes);
     const [count2,setCount2 ] =  React.useState(props.potatoes);
     const [count3, setCount3] = React.useState(props.carrots);
@@ -58,4 +57,4 @@ function vegetables(props) {
     )
  }
 
-export default vegetables;
+export default vegetable;
