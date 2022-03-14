@@ -1,5 +1,5 @@
 import React from 'react';
-import './vegetable.css'
+import './Vegetable.css'
 
 function Vegetables(props) {
     const [count1, setCount1] = React.useState(props.tomatoes);
